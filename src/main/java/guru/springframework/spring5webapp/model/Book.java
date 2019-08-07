@@ -7,9 +7,9 @@ import java.util.Set;
 /**
  * Created by jt on 5/16/17.
  */
-
+@Entity
 public class Book {
-
+    @Id
     private Long id;
     private String title;
     private String isbn;
